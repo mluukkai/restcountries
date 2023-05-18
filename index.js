@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     <td>All countries</td>
   </tr>
   <tr>
-    <td><a href='/api/name/finland'>/api/name/{name}</a></td>
+    <td><a href='api/name/finland'>/api/name/{name}</a></td>
     <td>Search by country’s full name. It can be the common or official value</td>
   </tr>
 </table>
