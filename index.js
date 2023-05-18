@@ -1,7 +1,6 @@
 const express = require('express')
 const app = express()
 const all = require('./all.json')
-const countries = require('./countries.json')
 
 app.get('/', (req, res) => {
   const page = `
