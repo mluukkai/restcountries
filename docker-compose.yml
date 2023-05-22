@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  web:
+    ports:
+      - 3333:3001
+    image: mluukkai/restcountries

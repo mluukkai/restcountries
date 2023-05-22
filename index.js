@@ -2,6 +2,10 @@ const express = require('express')
 const app = express()
 const all = require('./all.json')
 
+const cors = require('cors')
+
+app.use(cors())
+
 app.get('/', (req, res) => {
   const page = `
 <h2>Rest Countries</h2>
